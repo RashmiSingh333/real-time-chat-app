@@ -59,6 +59,6 @@ socket.on('disconnect',()=>{
   }
 })
 })
-server.listen(3000,()=>{
-  console.log('server is up and running on'  + port);
+server.listen(port,()=>{
+  console.log('server is up and running on '  + port);
 })
